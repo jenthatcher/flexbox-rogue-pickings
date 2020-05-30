@@ -189,6 +189,13 @@ footer span {
 	}
 
 	.bottom-section {
-		flex-flow: row wrap;
+		display: flex;
+	
+	}
+
+	.section-one .section-two .section-three {
+		
+		width: 33%;
+		
 	}
 }
