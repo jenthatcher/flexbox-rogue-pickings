@@ -148,6 +148,10 @@ footer span {
 /*****TABLET*****/
 
 @media only screen and (min-width: 768px) {
+
+	header {
+		padding-top: 20px;
+	}
 	.bottom-section {
 		justify-content: space-between;
 		align-items: flex-start;
@@ -171,11 +175,12 @@ footer span {
 @media only screen and (min-width: 1200px) {
 	header {
 		justify-content: space-between;
+		padding-top: 20px;
 	}
 	
 	header h1 {
 		width: 30%;
-        padding: 0;
+        padding: 10px;
         border-bottom: none;
         text-align: left;
 	}
@@ -191,11 +196,12 @@ footer span {
 	.bottom-section {
 		display: flex;
 	
+
 	}
 
-	.section-one .section-two .section-three {
+	.section-one, .section-two, .section-three {
 		
-		width: 33%;
+		width: 30%;
 		
 	}
 }
